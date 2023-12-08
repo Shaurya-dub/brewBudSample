@@ -1,0 +1,74 @@
+@media (min-width: 1157px) {
+  .roadTripList.roadTripHide {
+    right: -22%;
+  }
+}
+
+@media (max-width: 950px) {
+  .headWrapper form {
+    display: flex;
+    flex-direction: column;
+  }
+  .headWrapper form select {
+    margin-top: 5%;
+  }
+}
+
+@media (max-width: 830px) {
+  .roadTripList {
+    width: 40%;
+  }
+  .breweryList a,
+  .buttonLinkHolder p {
+    font-size: 0.6rem;
+  }
+}
+
+@media (max-width: 730px) {
+  .headWrapper form input,
+  .headWrapper form select {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 650px) {
+  .headWrapper form button {
+    padding: 6px 20px;
+  }
+  .roadTripList {
+    width: 50%;
+  }
+  .breweryList {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .breweryList li.fade {
+    width: 100%;
+  }
+  .mapContentHolder {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 3rem;
+  }
+  // .headWrapper {
+  //   width: 90%;
+  // }
+}
+
+@media (max-width: 450px) {
+  // .headWrapper {
+  //   width: 95%;
+  // }
+  .buttonLinkHolder {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+}

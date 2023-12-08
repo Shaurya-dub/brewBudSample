@@ -1,0 +1,99 @@
+.mapHolder {
+  display: none;
+  transition: all 0.2s ease;
+}
+
+.mapContentHolder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80%;
+  max-width: 1200px;
+}
+
+.mapHolder.showMap,
+.errorScreen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  min-width: 100vw;
+  min-height: 100vh;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 9999;
+  padding: 20px;
+  background-color: #0000008f;
+}
+.mapCloseBtnHolder {
+  align-self: flex-start;
+}
+#map {
+  width: 100%;
+  height: 70%;
+}
+.mapDirectionsLinkHolder {
+  width: 100%;
+  background-color: #5e5a5a91;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+}
+.mapDirectionsCopyLinkHolder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 5px;
+  border-radius: 15px;
+  margin: auto;
+}
+
+.mapDirectionsLinkHolder button {
+  margin-left: 10px;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  align-items: center;
+  width: 1.2em;
+  font-size: 1em;
+}
+
+.mapDirectionsLinkHolder img {
+  width: 100%;
+}
+
+.copyText {
+  font-size: 12px;
+}
+
+.mapDirectionsLink {
+  color: #fff;
+  font-size: 1em;
+  text-shadow: -0.2rem -0.2rem 1rem #ff00de, 0.2rem 0.2rem 1rem #ffe1fb;
+}
+
+.copyButtonHolder {
+  position: relative;
+}
+
+.confirmTextContainer {
+  display: none;
+  background-color: #fff;
+  position: absolute;
+  width: 87px;
+  left: -10px;
+  border-radius: 8px;
+  font-size: 25px;
+  text-align: center;
+}
+.confirmText {
+  margin: 0px;
+}

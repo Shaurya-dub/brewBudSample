@@ -1,0 +1,39 @@
+{
+  "name": "brewbud",
+  "version": "1.0.0",
+  "description": "An app to help you find American breweries",
+  "main": "app.js",
+  "scripts": {
+    "netlify": "./node_modules/.bin/netlify",
+    "debug": "netlify dev --inspect",
+    "build": "webpack --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shaurya-dub/brewBud.git"
+  },
+  "author": "Shaurya Dubey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shaurya-dub/brewBud/issues"
+  },
+  "homepage": "https://github.com/Shaurya-dub/brewBud#readme",
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "netlify-cli": "^6.14.19",
+    "webpack": "^5.81.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "@googlemaps/js-api-loader": "^1.15.1",
+    "@googlemaps/markerclusterer": "^2.0.15",
+    "axios": "^0.24.0",
+    "bodymovin": "^4.13.0",
+    "cli": "^1.0.1",
+    "dotenv-webpack": "^8.0.1",
+    "firebase": "^9.16.0",
+    "lottie-web": "^5.12.2",
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1"
+  }
+}

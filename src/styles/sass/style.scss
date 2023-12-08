@@ -1,0 +1,26 @@
+@import "setup.scss";
+@import "variables.scss";
+@import "header.scss";
+@import "main.scss";
+@import "footer.scss";
+@import "mediaQueries.scss";
+@import "map.scss";
+
+html {
+  font-size: 125%;
+}
+
+body {
+  // background-image:url(../../media/joseph-gonzalez-AKv3lCzn1pA-unsplash.jpg);
+  background-size: cover;
+  font-family: $quicksand;
+  font-size: 1.5rem;
+  // min-height:100vh;
+}
+
+
+
+
+
+
+
